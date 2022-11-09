@@ -17,7 +17,7 @@ const userSchema = mongoose.Schema({
     },
     pic: {
         type: String,
-        default:"https://cdn-icons-png.flaticon.com/512/1246/1246351.png?w=1380&t=st=1664559889~exp=1664560489~hmac=e03dabc8261a1df5f902f8dabf85e700ef8607076e95bd65cfddce669d2a95d6"
+        default:"https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
     },
 
 }, { timestamps:true })
