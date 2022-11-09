@@ -19,7 +19,7 @@ app.use(notFound)
 app.use(errorHandler)
 
 
-const server = app.listen(4000, console.log('SERVER STARTED'))
+const server = app.listen(1111, console.log('SERVER STARTED'))
 
 const io = require("socket.io")(server, {
     pingTimeout:60000,
