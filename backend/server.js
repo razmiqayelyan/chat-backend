@@ -5,6 +5,7 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware")
 const cors = require("cors")
 const chatRouter = require("./router/chatRouter")
 const messageRouter = require("./router/messageRouter")
+require('dotenv').config()
 
 const app = express()
 connectDB()
